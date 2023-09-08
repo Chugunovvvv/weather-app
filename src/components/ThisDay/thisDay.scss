@@ -1,0 +1,47 @@
+.day {
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 2px 5px 25px -3px rgba(180, 180, 180, 0.25);
+    padding: 25px 20px;
+    max-width: 400px;
+
+    &__top {
+        display: flex;
+        gap: 80px;
+        align-items: center;
+    }
+
+    &__top-content {
+    }
+
+    &__top-degree {
+        color: #4793FF;
+        font-size: 96px; 
+        font-weight: 700;
+        
+    }
+
+    &__top-title {
+        color: #000;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-bottom: 31px;
+    }
+
+    &__bottom {
+        color: #939CB0;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    &__bottom-time {
+        margin-bottom: 14px;
+    }
+
+    &__bottom-city {
+    }
+}

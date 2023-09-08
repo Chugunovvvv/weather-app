@@ -7,7 +7,7 @@ const Header = () => {
     <header className="header">
         <div className="header__container container">
             <div className="header__logo">
-                <img src={logo} alt="" />
+                <img src={logo} alt="" className='header__image'/>
                 <h1 className="header__title">
                     Weather App
                 </h1>

@@ -6,9 +6,10 @@ import DayInfo from '../DayInfo/DayInfo';
 const Main = () => {
   return (
     <div className="main__container container">
-        <ThisDay/>
-        <DayInfo/>
-      
+      <div className="main__wrapper">
+      <ThisDay/>
+      <DayInfo/>
+      </div>
     </div>
   )
 }

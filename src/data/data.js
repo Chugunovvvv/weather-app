@@ -5,9 +5,6 @@ import img2 from '../images/card/rain.svg'
 
 const cards = [
 
-
-
-
     {
         day: 'Сегодня',
         date: '28 авг',

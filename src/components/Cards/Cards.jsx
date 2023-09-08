@@ -9,8 +9,8 @@ const Cards = () => {
     <div className="cards">
         <div className="cards__container container">
 
-            {cards.map((item) => {
-                return (<Card day={item.day} date={item.date} img={item.img} temp={item.temperature} info={item.info}  />)
+            {cards.map((item, index) => {
+                return (<Card key={index} day={item.day} date={item.date} img={item.img} temp={item.temperature} info={item.info}  />)
             })}
            
         </div>

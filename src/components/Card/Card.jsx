@@ -1,7 +1,9 @@
 import React from 'react'
 import './Card.scss'
 
-const Card = ({day, date, img, temp, info}) => {
+const Card = ({day, date, img, temp, info}) => { 
+  
+ 
   return (
     <div className="card">
         <div className="card__container container">

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import './dayInfo.scss'
 
 import temp from '../../images/temp.svg'
@@ -7,8 +7,8 @@ import wind from '../../images/wind.svg'
 import davl from '../../images/davl.svg'
 
 
-const DayInfo = () => {
 
+const DayInfo = ({handleClick}) => {
 
 
   return (
@@ -22,7 +22,7 @@ const DayInfo = () => {
                         </div>
                         <div className="info__list-content">
                         <div className="info__list-title">Температура</div>
-                        <p className="info__list-subtitle">20° - ощущается как 17°</p>
+                        <p className="info__list-subtitle">17°</p>
                         </div>
                         
                     </li>
